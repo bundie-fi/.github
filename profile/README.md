@@ -81,7 +81,7 @@ Bundie is built as a modular protocol:
 ## Security
 
 - **Non-custodial** - Funds stay in user-owned smart contract accounts. An emergency rescue function exists for edge cases (e.g. token blacklisting) but cannot be used during normal operation.
-- **Audited** - Smart contracts audited with 650+ tests including fuzz testing
+- **Audited by [Sherlock](https://www.sherlock.xyz/)** - Smart contracts audited with 650+ tests including fuzz testing
 - **Transparent** - All positions visible on-chain at all times
 - **Access control** - 1-day timelock on account/router upgrades, validator authorization, slippage protection
 - **Risk scoring** - Every strategy is scored 0-100 across security, liquidity, maturity, and centralization
