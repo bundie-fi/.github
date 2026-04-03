@@ -16,14 +16,14 @@ Bundie solves this with three things:
 
 1. **AI-powered discovery** - Analyzes your wallet history, risk profile, and preferences to recommend strategies tailored to you
 2. **Bundled investing** - Mix and match yields across protocols and chains into a single bundle, deployed in one click
-3. **Cross-chain execution** - Handles bridging, routing, and approvals behind the scenes across Scroll, Arbitrum, Base, and more
+3. **Cross-chain execution** - Handles bridging, routing, and approvals behind the scenes across multiple chains
 
 ---
 
 ## How It Works
 
 ### Your Personal Account
-When you sign up, Bundie creates a **personal smart-contract account** on Scroll. This account is non-custodial - your funds are always in your own contract, never pooled with other users.
+When you sign up, Bundie creates a **personal smart-contract account** on-chain. This account is non-custodial - your funds are always in your own contract, never pooled with other users.
 
 ### AI Analysis
 Bundie's AI analyzes your on-chain history (transaction patterns, risk profile, position sizing) and recommends strategies across three risk tiers: **Conservative**, **Balanced**, and **Aggressive**. The AI is a research assistant - it recommends, you decide.
@@ -41,7 +41,7 @@ Track your positions in real-time. When market conditions change, Bundie surface
 - **AI Copilot** - Personalized strategy recommendations based on wallet analysis
 - **Bundle Builder** - Mix and match yield strategies across protocols and chains
 - **One-Click Deploy** - No more manual bridging, swapping, and approving
-- **Cross-Chain** - Access opportunities on Scroll, Arbitrum, Base, and more via LayerZero
+- **Cross-Chain** - Access opportunities across multiple chains via LayerZero
 - **Risk-Rated** - Clear risk tiers from Stable to Growth
 - **Non-Custodial** - Your funds live in your own smart contract account
 - **Social Investing** - Discover bundles from other users, copy or fork configurations
@@ -57,7 +57,7 @@ Track your positions in real-time. When market conditions change, Bundie surface
 | **Performance fee** | None | - |
 | **Deposit/withdrawal** | None | - |
 | **AI analysis** | None | - |
-| **Gas fees** | ~$0.05–$0.15 | Scroll L2 gas, not paid to Bundie |
+| **Gas fees** | ~$0.05-$0.15 | L2 gas, not paid to Bundie |
 
 
 ---
