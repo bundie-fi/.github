@@ -26,7 +26,7 @@ Bundie solves this with three things:
 When you sign up, Bundie creates a **personal smart-contract account** on-chain. This account is non-custodial - your funds are always in your own contract, never pooled with other users.
 
 ### AI Analysis
-Bundie's AI analyzes your on-chain history (transaction patterns, risk profile, position sizing) and recommends strategies across three risk tiers: **Conservative**, **Balanced**, and **Aggressive**. The AI is a research assistant - it recommends, you decide.
+Bundie's AI analyzes your on-chain history (transaction patterns, risk profile, position sizing) and builds your best bundle - 2-3 optimized strategies selected through a multi-perspective debate framework. The AI is a research assistant - it recommends, you decide.
 
 ### Bundle & Deploy
 Select strategies individually or let AI build a bundle for you. One transaction deposits across multiple protocols and chains. Receipt tokens track your share of each yield pool.
@@ -42,7 +42,7 @@ Track your positions in real-time. When market conditions change, Bundie surface
 - **Bundle Builder** - Mix and match yield strategies across protocols and chains
 - **One-Click Deploy** - No more manual bridging, swapping, and approving
 - **Cross-Chain** - Access opportunities across multiple chains via LayerZero
-- **Risk-Rated** - Clear risk tiers from Stable to Growth
+- **Risk-Scored** - Every strategy is quality-vetted and risk-scored
 - **Non-Custodial** - Your funds live in your own smart contract account
 - **Social Investing** - Discover bundles from other users, copy or fork configurations
 - **MCP Server** - Integrate Bundie with AI coding assistants (Claude, Cursor, etc.)
