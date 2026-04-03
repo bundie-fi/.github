@@ -1,126 +1,102 @@
-# SynthOS
+# Bundie
 
-Composable yield bundles across DeFi and beyond.
+**AI-powered DeFi yield optimization. One click.**
 
-SynthOS is a financial intelligence + execution layer that helps you construct, understand, and deploy diversified yield exposure from a single interface.
-
-Instead of limiting you to “on-chain interest rates,” SynthOS lets you mix and match yield strategies across any asset class on-chain, off-chain, or hybrid so long as they can be represented as **vault primitives** and brought onto **SynthOS**.
-
-Build your own bundle, follow others, and use SynthOS intelligence to make better decisions then execute the plan with minimal operational overhead.
+Bundie aggregates yield strategies across the Ethereum ecosystem and uses AI to recommend personalized yield bundles — so you can invest in multiple high-interest opportunities with a single transaction.
 
 ---
 
-## Core Messages
+## The Problem
 
-### 1) Mix & match any yield strategy as vault primitives (SynthOS)
-SynthOS treats yield sources as standardized **vault primitives** that act as composable building blocks you can combine into a single bundle.
+DeFi yield is fragmented across thousands of protocols and chains. Finding good opportunities means hours of manual research, complex multi-step transactions (bridging, swapping, approving), and constant monitoring. Most users either miss opportunities or take on risk they don't understand.
 
-This enables exposure to many strategy types through one interface, including (but not limited to):
-- interest rate strategies
-- swap-fee / LP fee capture
-- market making and liquidity provisioning
-- structured strategies
-- tokenized real-world yield (where available)
+## The Solution
 
-If a yield stream can be expressed as a vault primitive, it can be surfaced, compared, and bundled on SynthOS.
+Bundie solves this with three things:
 
-### 2) Build your own bundle (and optionally invest socially)
-You can construct a bundle that reflects how you actually allocate:
-- across strategy types, protocols, and chains
-- across assets and risk intents
-- across multiple vault primitives in one portfolio
-
-Social investing is supported as a concept:
-- discover bundles created by others
-- follow, copy, or “fork” a bundle configuration and tailor it to your own risk intent
-
-### 3) Financial intelligence that improves decisions, then helps execute
-SynthOS is not just a strategy directory. It is designed to help you:
-- understand tradeoffs (risk, liquidity, protocol quality, correlation, volatility)
-- choose better combinations and allocations
-- execute deposits/allocations with fewer steps (routing, swaps, bridging, approvals)
-
-Rebalancing is currently **user-executed**: SynthOS can surface monitoring insights and rebalance suggestions, but the user chooses whether to submit the rebalance transaction.
+1. **AI-powered discovery** — Analyzes your wallet history, risk profile, and preferences to recommend strategies tailored to you
+2. **Bundled investing** — Mix and match yields across protocols and chains into a single bundle, deployed in one click
+3. **Cross-chain execution** — Handles bridging, routing, and approvals behind the scenes across Scroll, Arbitrum, Base, and more
 
 ---
 
-## How SynthOS Works
+## How It Works
 
-### Vault primitives on SynthOS
-SynthOS is the strategy layer where yield sources are represented as vault primitives. SynthOS consumes these primitives to power:
-- bundle construction
-- strategy comparison and filtering
-- allocation planning and execution
+### Your Personal Vault
+When you sign up, Bundie creates a **personal smart-contract vault** on Scroll. This vault is non-custodial — your funds are always in your own contract, never pooled with other users.
 
-### AI strategy intelligence
-SynthOS includes an AI analyzer that personalizes opportunities based on your wallet activity, preferences, and risk intent. It helps you construct a more robust plan than simple APY chasing.
+### AI Analysis
+Bundie's AI analyzes your on-chain history (transaction patterns, risk profile, position sizing) and recommends strategies across three risk tiers: **Conservative**, **Balanced**, and **Aggressive**. The AI is a research assistant — it recommends, you decide.
 
-### Your Vault
-When you create a Vault, you are creating a **personal smart-contract vault** that tracks positions and portfolio logic. Your wallet is used for sign-in and approvals.
+### Bundle & Deploy
+Select strategies individually or let AI build a bundle for you. One transaction deposits across multiple protocols and chains. Receipt tokens track your share of each yield pool.
 
-### Wallet model and execution
-SynthOS supports social login and EOA wallets. A smart-wallet execution flow can be used to streamline multi-step actions (swaps, bridging, routing, approvals) and support a smoother cross-chain experience.
+### Monitor & Rebalance
+Track your positions in real-time. When market conditions change, Bundie surfaces rebalance suggestions — you choose whether to act.
 
 ---
 
 ## Features
 
-- Composable Bundle Builder (mix & match)
-  Build a custom bundle across multiple vault primitives and asset classes.
-
-- Single Strategy Investing
-  Prefer a single vault primitive? Allocate directly into individual strategies.
-
-- AI Copilot (financial intelligence)
-  Personalized insights, risk-aware strategy discovery, and allocation guidance.
-
-- Cross-chain ready execution
-  Reduce operational friction for multi-step entry/exit flows (swaps, bridging, routing, approvals).
-
-- Monitoring + rebalance suggestions (user-executed)
-  Track allocation drift and receive suggested adjustments; you decide when to execute.
-
-- Non-custodial by default
-  You remain in control. Funds move only with your approvals.
+- **AI Copilot** — Personalized strategy recommendations based on wallet analysis
+- **Bundle Builder** — Mix and match yield strategies across protocols and chains
+- **One-Click Deploy** — No more manual bridging, swapping, and approving
+- **Cross-Chain** — Access opportunities on Scroll, Arbitrum, Base, and more via LayerZero
+- **Risk-Rated** — Clear risk tiers from Stable to Growth
+- **Non-Custodial** — Your funds live in your own smart contract vault
+- **Social Investing** — Discover bundles from other users, copy or fork configurations
+- **MCP Server** — Integrate Bundie with AI coding assistants (Claude, Cursor, etc.)
 
 ---
 
-## Fees & Incentives
+## Fee Structure
 
-SynthOS uses a transparent fee and incentive structure, disclosed in-product before you act. Fees may include:
-- performance fees (on successful outcomes, where applicable)
-- management fees (for active portfolio services, where applicable)
+| Fee | Amount | Details |
+|-----|--------|---------|
+| **Management fee** | 3% annual | Deducted from yield, not as a lump sum |
+| **Performance fee** | None | — |
+| **Deposit/withdrawal** | None | — |
+| **AI analysis** | None | — |
+| **Gas fees** | ~$0.05–$0.15 | Scroll L2 gas, not paid to Bundie |
 
-Incentives may include partner rewards, referrals, and participation points.
-
----
-
-## Points
-
-SynthOS Points track participation across the protocol (e.g., using recommendations, depositing/withdrawing, referrals, and partner interactions). Points may be used for future rewards and early access.
+**30-day free trial** for new users. Bundie only earns when you earn.
 
 ---
 
-## Security & Risk
+## Architecture
 
-SynthOS is designed to prioritize transparency and risk awareness, but DeFi and tokenized strategies carry risk:
-- smart contract risk (both SynthOS contracts and underlying protocols)
-- market and volatility risk
-- liquidity and withdrawal risk
-- governance and parameter-change risk
+Bundie is built as a modular protocol:
 
-Nothing here is financial advice. Always do your own research and only allocate what you can afford to deploy on-chain.
-
----
-
-## Launch
-
-https://www.synthos.fun/
-
-## Documentation
-
-https://docs.synthos.fun/
+| Component | Description |
+|-----------|-------------|
+| **Contracts** | Solidity 0.8 — vaults, routers, bridges, fee manager (Foundry, 650+ tests) |
+| **Web App** | Next.js 15, React 19, Privy auth, ZeroDev smart accounts |
+| **AI Analyzer** | Wallet analysis, strategy recommendation, risk profiling |
+| **Aggregator** | Multi-protocol yield discovery (Euler, Morpho, Yearn, Silo, Fluid, Ethena, Centrifuge, USX) |
+| **TX Validator** | LayerZero cross-chain transaction verification |
+| **MCP Server** | AI tool integration for Claude, Cursor, and other LLM clients |
+| **Docs** | Fumadocs-powered documentation site |
 
 ---
 
-© 2025 SynthOS. All rights reserved.
+## Security
+
+- **Non-custodial** — Funds stay in user-owned smart contract vaults
+- **Audited** — Smart contracts audited with 650+ tests including fuzz testing
+- **Transparent** — All positions visible on-chain at all times
+- **Access control** — Timelock upgrades, validator authorization, slippage protection
+
+DeFi carries inherent risks including smart contract vulnerabilities, market volatility, and liquidity constraints. Always do your own research.
+
+---
+
+## Links
+
+- **App**: [app.bundie.fi](https://app.bundie.fi)
+- **Docs**: [docs.bundie.fi](https://docs.bundie.fi)
+- **MCP Server**: [mcp.bundie.fi](https://mcp.bundie.fi)
+- **Twitter**: [@Bundie__](https://x.com/Bundie__)
+
+---
+
+© 2026 Bundie. All rights reserved.
