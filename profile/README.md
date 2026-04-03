@@ -62,22 +62,6 @@ Track your positions in real-time. When market conditions change, Bundie surface
 
 ---
 
-## Architecture
-
-Bundie is built as a modular protocol:
-
-| Component | Description |
-|-----------|-------------|
-| **Contracts** | Solidity 0.8 - accounts, routers, bridges, fee manager (Foundry, 650+ tests) |
-| **Web App** | Next.js 15, React 19, Privy auth, ZeroDev smart accounts |
-| **AI Analyzer** | Wallet analysis, strategy recommendation, risk profiling |
-| **Aggregator** | Multi-protocol yield discovery (Euler, Morpho, Yearn, Silo, Fluid, Ethena, Centrifuge, USX) |
-| **TX Validator** | LayerZero cross-chain transaction verification |
-| **MCP Server** | AI tool integration for Claude, Cursor, and other LLM clients |
-| **Docs** | Fumadocs-powered documentation site |
-
----
-
 ## Security
 
 - **Non-custodial** - Funds stay in user-owned smart contract accounts. An emergency rescue function exists for edge cases (e.g. token blacklisting) but cannot be used during normal operation.
@@ -95,7 +79,10 @@ DeFi carries inherent risks including smart contract vulnerabilities, market vol
 - **App**: [app.bundie.fi](https://app.bundie.fi)
 - **Docs**: [docs.bundie.fi](https://docs.bundie.fi)
 - **MCP Server**: [mcp.bundie.fi](https://mcp.bundie.fi)
+- **Smithery**: [smithery.ai/servers/bundie/yield](https://smithery.ai/servers/bundie/yield)
 - **Twitter**: [@Bundie__](https://x.com/Bundie__)
+- **Telegram**: [Join community](https://t.me/+uN6dMuzQB_g2OGU1)
+- **Email**: info@bundie.fi
 
 ---
 
